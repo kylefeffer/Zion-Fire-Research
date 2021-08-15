@@ -39,27 +39,27 @@ require([
   }
   
   const poi = new FeatureLayer({
-      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Testing_POI_Collection/FeatureServer/0",
+      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/ZionNP_kfeffer_geog777_project2/FeatureServer/5",
       popupTemplate: popupPoi
   });
 
   const parking = new FeatureLayer({
-      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Zion_National_Park___Parking_Lot_shp/FeatureServer/0",
+      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/ZionNP_kfeffer_geog777_project2/FeatureServer/1",
       popupTemplate: popupParking
   });
   
   const overlooks = new FeatureLayer({
-      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Zion_National_Park___Overlook_shp/FeatureServer/0",
+      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/ZionNP_kfeffer_geog777_project2/FeatureServer/0",
       popupTemplate: popupOverlooks
   });
   
   const trail = new FeatureLayer({
-      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Zion_National_Park___Trails_shp/FeatureServer/0",
+      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/ZionNP_kfeffer_geog777_project2/FeatureServer/3",
       popupTemplate: popupTrail
   });
   
   const restrooms = new FeatureLayer({
-      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Zion_National_Park___Restrooms_shp/FeatureServer/0",
+      url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/ZionNP_kfeffer_geog777_project2/FeatureServer/2",
       popupTemplate: popupRestrooms
   });
 
@@ -114,7 +114,7 @@ require([
 
 // Get query layer and set up query
 const fireLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/UT_fires/FeatureServer/0",
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/ZionNP_kfeffer_geog777_project2/FeatureServer/4",
   });
 
   function queryFeatureLayer(extent) {
